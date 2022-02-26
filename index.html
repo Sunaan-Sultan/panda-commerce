@@ -5,9 +5,215 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>panda-commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#backpack">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#subscribe">Contact-Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!--CAROUSEL -->
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide carousel-bg" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                  <h1>Mega LCD TV For Sports</h1>
+                  <p>72" UHD OLED Mi Tv for best sports experience. Explore the world of sports and entertainment like never before</p>
+                  <h1>$1200</h1>
+                  <button class="buy-now-button">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1>Plextone G800 Headphones</h1>
+                <p>Plextone G800 3.5mm Gaming Headphone</p>
+                <h1>$49.99</h1>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img src="images/banner-images/plextone-g800.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1>Xbox One X|S Series</h1>
+                <p>The fastest, most powerful Xbox ever.Next-gen performance in the smallest Xbox ever.</p>
+                <h1>$499.99</h1>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--Carousel categories-->
+    <div class="container categories">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="d-flex justify-content-between align-items-center cat1">
+            <h1>Watch</h1>
+          <img src="images/categories/watch.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex justify-content-between align-items-center cat2">
+            <h1>Bag</h1>
+          <img src="images/categories/bag.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex justify-content-between align-items-center cat3">
+            <h1>Shoes</h1>
+          <img src="images/categories/shoes.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Shoes-->
+    <div class="container shoes" id="shoes">
+      <h2>Shoes</h2>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+          <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Supply-350</h5>
+              <p class="card-text">Ventilating shoes insole which thick to keep a dry, healthy and comfort foot environment.After you walk through the day's work with these shoes, you can keep the shoes dry and comfortable. This is a great feeling.</p>
+              <h2>$49.99</h2>
+              <button class="buy-now-button">Buy Now>></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike Pro</h5>
+              <p class="card-text">Nike Revolution 5 men's running shoes cushion your stride with soft foam to keep you running in comfort. Minimalist design fits in just about anywhere your day takes you.</p>
+              <h2>$89.99</h2>
+              <button class="buy-now-button">Buy Now>></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike Airmax</h5>
+              <p class="card-text">This product is made with Primeblue, a high-performance recycled material made in part with Parley Ocean Plastic. 50% of the upper is textile, 75% of the textile is Primeblue yarn. No virgin polyester.</p>
+              <h2>$149.99</h2>
+              <button class="buy-now-button">Buy Now>></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Backpack-->
+    <div class="container backpack" id="backpack">
+      <h2>Backpacks</h2>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+          <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">OGIO Pace Pro Max</h5>
+              <p class="card-text">Extra large 45 liter capacity for extended length trips.
+                Side access laptop compartment (17” compatible) and Nine zippered pockets for organization and separation.
+                Durable 1680D and 600D fabric with water repellent coating.
+                Adjustable and stowable padded shoulder straps with sternum strap and a detachable padded single shoulder strap</p>
+              <h2>$169.99</h2>
+              <button class="buy-now-button">Buy Now>></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BURTON Kettle 2.0 23L Backpack</h5>
+              <p class="card-text">Dimensions: 18 x 13 x 7 in [46 x 32 x 17 cm].
+                Laptop sleeve: 16 x 10 in [40 x 26 cm].
+                Ergonomic shoulder straps with an adjustable sternum strap.
+                External zippered accessory pocket and side water bottle pocket.
+                bluesign product</p>
+              <h2>$189.99</h2>
+              <button class="buy-now-button">Buy Now>></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vorspack Backpack Lightweight Backpack</h5>
+              <p class="card-text">Quality material & premium SBS zippers; 900D densified water-resistant polyester; padded back panel and padded straps to ease your stress.
+                Classic design for all situation; Classics will always be in style, though time is passing by. Vorspack backpack is simple but practical, it can fit your supplies for work, and gears for sports or gym, all personal necessities for a short trip or outings.</p>
+              <h2>$199.99</h2>
+              <button class="buy-now-button">Buy Now>></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex justify-content-center align-items-center carousel-bg" id="subscribe">
+      <div>
+        <h3>Stay in touch</h3>
+      <h4>Get updates on sales, special and more</h4>
+      <input class="form-control" type="text">
+      <button class="buy-now-button">Submit</button>
+      </div>
+    </div>
+    <footer>
+      <small>©2020. Panda Commerce. All rights reserved. Sunaan, Bangladesh.</small>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
